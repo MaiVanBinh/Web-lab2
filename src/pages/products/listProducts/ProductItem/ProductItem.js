@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProductItem.css";
+import {IconHeart, IconShoppongCart, IconView} from './../../../../utilities/SVG';
 
 const ProductItem = (props) => {
   const { price, name, image } = props;
@@ -12,15 +13,15 @@ const ProductItem = (props) => {
 
           <ul className="action">
             <li>
-              <i className="fa fa-heart" aria-hidden="true"></i>
+              <IconHeart />
               <span>Add to Wishlist</span>
             </li>
             <li>
-              <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+              <IconShoppongCart />
               <span>Add to Cart</span>
             </li>
             <li>
-              <i className="fa fa-eye" aria-hidden="true"></i>
+              <IconView height={16} width={16}/>
               <span>Add to Details</span>
             </li>
           </ul>

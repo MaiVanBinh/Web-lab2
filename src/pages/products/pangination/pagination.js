@@ -1,5 +1,5 @@
 import React from "react";
-// import "./pangination.css";
+import "./pagination.css";
 
 const pangination = () => {
   return (

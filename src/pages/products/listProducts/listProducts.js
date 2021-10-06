@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React  from "react";
 import "./listProducts.css";
 import ProductItem from "./ProductItem/ProductItem";
 
